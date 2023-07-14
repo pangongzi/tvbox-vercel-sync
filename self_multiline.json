@@ -1,0 +1,16 @@
+{
+  "urls": [
+    {
+      "url": "https://tvbox-vercel-sync.iwzsj.com/route/1-daozhang.json",
+      "name": "道长线路"
+    },
+    {
+      "url": "https://tvbox-vercel-sync.iwzsj.com/route/2-xiaopingguo.json",
+      "name": "小苹果线路"
+    },
+    {
+      "url": "https://tvbox-vercel-sync.iwzsj.com/route/3-meowcf.json",
+      "name": "CH猫友"
+    }
+  ]
+}
