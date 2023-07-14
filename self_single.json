@@ -1,5 +1,5 @@
 {
-  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/732.jar",
+  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/670.jar",
   "lives": [
     {
       "group": "redirect",
@@ -17,7 +17,7 @@
   "sites": [
     {
       "key": "T4_douban",
-      "name": "影视推荐(T4)",
+      "name": "T4",
       "type": 4,
       "api": "https://t4.饭太硬.ml/vod",
       "searchable": 1,
@@ -26,7 +26,7 @@
     },
     {
       "key": "小苹果",
-      "name": "主力源",
+      "name": "小苹果主力源",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -36,7 +36,7 @@
     },
     {
       "key": "t4佬",
-      "name": "豆瓣精选",
+      "name": "t4佬",
       "type": 1,
       "api": "https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e",
       "searchable": 0,
@@ -45,7 +45,7 @@
     },
     {
       "key": "csp_77",
-      "name": "👒酷云七七|Q群：582874559",
+      "name": "酷云七七",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
