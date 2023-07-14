@@ -1,5 +1,5 @@
 {
-  "spider": "http://waurl.cn/dxaw",
+  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/744.jar",
   "lives": [
     {
       "group": "redirect",
@@ -26,7 +26,7 @@
     },
     {
       "key": "小苹果",
-      "name": "🍎主力源",
+      "name": "主力源",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -36,7 +36,7 @@
     },
     {
       "key": "t4佬",
-      "name": "🍀┃豆瓣精选",
+      "name": "豆瓣精选",
       "type": 1,
       "api": "https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e",
       "searchable": 0,
