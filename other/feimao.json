@@ -31,8 +31,6 @@
       "playerType": "2",
       "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
-
-
     {
       "key": "YQK_spider",
       "name": "🙆┃一起┃电视",
@@ -44,7 +42,6 @@
       "searchable": 1,
       "ext": "https://hk-api-cf.yqk5659.com"
     },
-
     {
       "key": "csp_Kunyu77",
       "name": "🌈┃七七┃影视",
@@ -145,7 +142,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://lg.tvcms.top/api.php/app/"
-    },    
+    },
     {
       "key": "csp_Lib",
       "name": "💫┃Lib  ┃影视",
@@ -203,8 +200,8 @@
       "api": "csp_AppYsV2",
       "ext": "https://ys.realdou.cn/api.php/app/",
       "categories": [
-    "4K电影",
-    "4K电视剧",
+        "4K电影",
+        "4K电视剧",
       ]
     },
     {
@@ -654,16 +651,49 @@
       "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=fjklpqsyCDGMNQRWX8&url="
     },
     {
-"name": "夜曲解析",
-"type": 1,
-"url": "http://xhww.fun:63/小米特别爱肥猫.php?url=",
-"ext": {
-"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "sohu", "搜狐", "letv", "乐视", "mgtv", "芒果", "CL4K", "renrenmi", "ltnb", "bilibili", "1905", "xigua", "nongmin", "CL4K", "xfyun", "ffm3u8", "lzm3u8", "netease", "pgyer","TD", "qzone", "FY", "ppayun", "Feiyun", "zhibo"],
-"header": {
-"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; PDHM00 Build/QKQ1.191222.002)"
-
-}
-}}
+      "name": "夜曲解析",
+      "type": 1,
+      "url": "http://xhww.fun:63/小米特别爱肥猫.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "CL4K",
+          "renrenmi",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua",
+          "nongmin",
+          "CL4K",
+          "xfyun",
+          "ffm3u8",
+          "lzm3u8",
+          "netease",
+          "pgyer",
+          "TD",
+          "qzone",
+          "FY",
+          "ppayun",
+          "Feiyun",
+          "zhibo"
+        ],
+        "header": {
+          "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 10; PDHM00 Build/QKQ1.191222.002)"
+        }
+      }
+    }
   ],
   "rules": [
     {
