@@ -26,15 +26,6 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
     // js 专区 str
     {
       "key": "js豆瓣",
@@ -176,24 +167,6 @@
       "name": "LIBVIO(SP)",
       "type": 3,
       "api": "csp_Lib",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_LiteApple",
-      "name": "小苹果(SP)",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_BuLei",
-      "name": "布雷影院(SP)",
-      "type": 3,
-      "api": "csp_BuLei",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -923,6 +896,15 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     }
   ],
   "parses": [
