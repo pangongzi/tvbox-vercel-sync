@@ -1,6 +1,6 @@
 {
   // "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/744.jar",
-  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/custom_spider.txt",
+  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/469.jar",
   // "spider": "http://www.iwzsj.com/spider/744.jar",
   //
   "lives": [
