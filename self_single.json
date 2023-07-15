@@ -1,5 +1,7 @@
 {
-  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/744.jar",
+  //"spider": "https://tvbox-vercel-sync.iwzsj.com/spider/744.jar",
+  "spider": "http://www.iwzsj.com/spider/744.jar",
+  //
   "lives": [
     {
       "group": "redirect",
