@@ -1,6 +1,7 @@
 {
-  //"spider": "https://tvbox-vercel-sync.iwzsj.com/spider/744.jar",
-  "spider": "http://www.iwzsj.com/spider/744.jar",
+  // "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/744.jar",
+  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/custom_spider.txt",
+  // "spider": "http://www.iwzsj.com/spider/744.jar",
   //
   "lives": [
     {
@@ -55,7 +56,7 @@
       "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"
     },
-    // js 专区 str
+    // js 专区 end
     {
       "key": "量子资源",
       "name": "量子资源",
