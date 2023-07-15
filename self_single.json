@@ -36,34 +36,87 @@
     },
     // js 专区 str
     {
-      "key": "js豆瓣",
+      "key": "js_豆瓣",
       "name": "豆瓣推荐",
       "type": 3,
       "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
       "ext": "http://alist.xn--z7x900a.love:63/豆瓣.js"
     },
     {
-      "key": "drpy_js_奇珍异兽",
+      "key": "js_奇珍异兽",
       "name": "官源 | 爱奇艺[js]",
       "type": 3,
       "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"
     },
     {
-      "key": "drpy_js_优酷",
+      "key": "js_优酷",
       "name": "官源 | 优酷[js]",
       "type": 3,
       "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"
     },
     {
-      "key": "drpy_js_腾云驾雾",
+      "key": "js_腾云驾雾",
       "name": "官源 | 腾讯[js]",
       "type": 3,
       "api": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"
     },
     // js 专区 end
+    {
+      "key": "狐狸",
+      "name": "狐狸┃影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "playerType": "2",
+      "ext": "https://www.kuin.one/api.php/app/"
+    },
+    {
+      "key": "鸭鸭",
+      "name": "鸭鸭┃影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "爱奇┃官源",
+      "type": 3,
+      "api": "http://alist.xn--z7x900a.love:63/drpy2.min.js",
+      "ext": "http://alist.xn--z7x900a.love:63/爱奇.js"
+    },
+    {
+      "key": "Qtv",
+      "name": "企鹅┃官源",
+      "type": 3,
+      "api": "csp_Qtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_SP360",
+      "name": "360┃官源",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://我不是.肥猫.love:63/json/360影视.json"
+    },
+    {
+      "key": "MGT",
+      "name": "芒果┃官源",
+      "type": 3,
+      "api": "csp_Mtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "量子资源",
       "name": "量子资源",
@@ -950,11 +1003,6 @@
       "name": "左岸解析",
       "type": 1,
       "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
-    },
-    {
-      "name": "小城解析",
-      "type": 1,
-      "url": "https://jx.ccabc.cc/xc/?key=5567332json&url="
     },
     {
       "name": "星辰云解析",
