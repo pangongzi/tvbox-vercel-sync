@@ -1,5 +1,7 @@
 {
+  //爬虫
   "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/738.jar",
+  //直播
   "lives": [
     {
       "group": "redirect",
@@ -13,6 +15,7 @@
       ]
     }
   ],
+  //壁纸
   "wallpaper": "http://maoyingshi.cc/api.php",
   "sites": [
     {
@@ -953,8 +956,37 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
+    },
+    {
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/alist.json"
+    },
+    {
+      "key": "WebDAV",
+      "name": "WebDAV",
+      "type": 3,
+      "api": "csp_WebDAV",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
     }
   ],
+  //解析
+  //type0 手动解析
+  //type1 聚合.并发.轮询
   "parses": [
     {
       "name": "解析聚合",
@@ -1176,24 +1208,44 @@
     }
   ],
   "flags": [
-    "imgo",
     "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
     "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
     "iqiyi",
     "qiyi",
-    "fun",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
     "letv",
     "leshi",
+    "乐视",
+    "乐 视",
     "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
     "tudou",
-    "xigua",
-    "cntv",
-    "1905",
     "pptv",
     "mgtv",
-    "wasu",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
     "bilibili",
-    "renrenmi"
+    "哔 哩",
+    "哔 哩 哔 哩",
+    "FY",
+    "fy",
+    "FeiYun",
+    "feiyun",
+    "飞云"
   ],
   "hotSearch": [
     {
@@ -1397,6 +1449,7 @@
       ]
     }
   ],
+  // 屏蔽广告
   "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
