@@ -993,8 +993,8 @@
       "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
     },
     {
-      "key": "书写格式-key 点播源",
-      "name": "书写格式-name 点播源",
+      "key": "格式-key", // 点播源
+      "name": "格式-name", // 点播源
       "type": 0, // Type 0-xml 1-json 2-爬虫源 3-自定义爬虫 4-服务器爬虫
       "api": "http://www.kkkkkbbbbb.com/api.php/provide/vod/at/xml/", // Api
       "playUrl": "站点播放地址", // 站点播放地址
