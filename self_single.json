@@ -4,12 +4,21 @@
   //直播
   "lives": [
     {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "http://我不是.肥猫.love:63/TV/tvzb.txt",
+      "ua": "okhttp/3.12.13",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "group": "redirect",
       "channels": [
         {
           "name": "redirect",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9pcHR2aW5kZXguY29tL3R2LnR4dA=="
+            "proxy://do=live&type=txt&ext=aHR0cDovL+aIkeS4jeaYry7ogqXnjKsubG92ZTo2My9UVi90dnpiLnR4dA=="
           ]
         }
       ]
@@ -547,10 +556,10 @@
         "动画片",
         "综艺",
         "动漫",
-        "番剧（B站专用）",
-        "国创（B站专用）",
-        "电影（B站专用）",
-        "电视剧（B站专用）"
+        "番剧(B站专用)",
+        "国创(B站专用)",
+        "电影(B站专用)",
+        "电视剧(B站专用)"
       ]
     },
     {
@@ -982,9 +991,28 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
+    },
+    {
+      "key": "书写格式-key 点播源",
+      "name": "书写格式-name 点播源",
+      "type": 0, // Type 0-xml 1-json 2-爬虫源 3-自定义爬虫 4-服务器爬虫
+      "api": "http://www.kkkkkbbbbb.com/api.php/provide/vod/at/xml/", // Api
+      "playUrl": "站点播放地址", // 站点播放地址
+      "searchable": 1, // 可搜索? 0-不可以 1-可以
+      "quickSearch": 1, // 可快速搜索? 0-不可以 1-可以
+      "filterable": 0, // 可筛选? 0-不可以 1-可以
+      "ext": "站点扩展信息", // 站点扩展信息
+      "categories": [
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "泰剧",
+        "综艺"
+      ] // Categories 按顺序展示所配置的分类 不配置则默认展示所有分类 
     }
   ],
-  //解析
+  //解析 Type 0-普通 1-Json 2-多Json 3-聚合
   //type0 手动解析
   //type1 聚合.并发.轮询
   "parses": [
@@ -992,6 +1020,7 @@
       "name": "解析聚合",
       "type": 3,
       "url": "Demo"
+      // ParseExt:'拓展数据'
     },
     {
       "name": "Web聚合",
@@ -1079,7 +1108,7 @@
     },
     // by pwh 寻找的
     {
-      "name": "jsonplayer",
+      "name": "手动网络1",
       "type": 0,
       "url": "http://jx.jsonplayer.com/player/?url=",
       "ext": {
@@ -1110,7 +1139,7 @@
     },
     // pwh 手动 str
     {
-      "name": "svip.bljiex.cc",
+      "name": "手动网络2",
       "type": 0,
       "url": "https://svip.bljiex.cc/?v="
     },
@@ -1390,6 +1419,7 @@
       ]
     }
   ],
+  // vip 解析标识
   "flags": [
     "youku",
     "优酷",
@@ -1459,7 +1489,7 @@
   // 解码
   "ijk": [
     {
-      "group": "软解码",
+      "group": "软解码", // OPT_CATEGORY_FORMAT=1 OPT_CATEGORY_CODEC=2 OPT_CATEGORY_SWS=3 OPT_CATEGORY_PLAYER=4
       "options": [
         {
           "category": 4,
@@ -1539,7 +1569,7 @@
       ]
     },
     {
-      "group": "硬解码",
+      "group": "硬解码", // OPT_CATEGORY_FORMAT=1 OPT_CATEGORY_CODEC=2 OPT_CATEGORY_SWS=3 OPT_CATEGORY_PLAYER=4
       "options": [
         {
           "category": 4,
@@ -1619,7 +1649,7 @@
       ]
     }
   ],
-  // 屏蔽广告
+  // 屏蔽广告 设置解析播放时webview过滤的广告
   "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
