@@ -1,7 +1,7 @@
 {
-  //爬虫
+  // 爬虫、蜘蛛
   "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/738.jar",
-  //直播
+  // 直播
   "lives": [
     {
       "name": "live",
@@ -24,8 +24,11 @@
       ]
     }
   ],
-  //壁纸
+  // 壁纸
   "wallpaper": "http://maoyingshi.cc/api.php",
+  // 提示
+  "warningText": "",
+  // 站点
   "sites": [
     {
       "key": "肥猫",
@@ -34,7 +37,7 @@
       "api": "csp_XBPQ",
       "ext": "http://我不是.肥猫.love:63/json/芸芸.json"
     },
-    // js 专区 str
+    // js 专区 str --->
     {
       "key": "js_豆瓣",
       "name": "豆瓣推荐",
