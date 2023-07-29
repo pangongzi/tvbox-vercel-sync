@@ -1,6 +1,6 @@
 {
   // 爬虫、蜘蛛
-  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/738.jar",
+  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/826.jar",
   // 直播
   "lives": [
     {
@@ -30,6 +30,94 @@
   "warningText": "",
   // 站点
   "sites": [
+    {
+      "key": "一龙高清",
+      "name": "一龙高清",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playerType": "1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "站名": "一龙影视",
+        "主页url": "http://www.yilonghd.com/",
+        "嗅探词": ".m3u8#.mp4#video_mp4#feiyunNB.mp4#.mp4#cdn.123pan.cn#huoshanvod.com#v.123pan.cn#auth_key#app-ali-cdn.fqfilm.com",
+        "简介": "<div class=\"stui-pannel_bd\"&&</div>",
+        "导演": "导演：&&</p>",
+        "主演": "主演：&&</p>",
+        "影片类型": "类型：&&立即播放",
+        "影片状态": "更新：&&</p>",
+        "影片年代": "年份：&&</a>",
+        "影片地区": "地区：&&</a>",
+        "数组": "vodlist__thumb&&</a>",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "ic-text text-right\" style=\"\">&&</span>",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://www.cupfox.app/s/{wd}",
+        "搜索模式": "1",
+        "搜索二次截取": "type=\"application/json\">&&</script>",
+        "搜索数组": "{\"te&&}[包含:一龙高清]",
+        "搜索图片": "https://s1.ax1x.com/2023/07/13/pChRNsP.jpg",
+        "搜索标题": "xt\":\"&&\"",
+        "搜索副标题": "一龙高清",
+        "搜索链接": "\"url\":\"&&\"",
+        "线路数组": "data-toggle=&&</li>[不包含:无尽线路#备用][排序:极速>奇热>量子>非凡>自建]",
+        "线路标题": ">&&</a>",
+        "播放数组": "stui-content__playlist clearfix&&</ul>",
+        "播放标题": ">&&<",
+        "播放列表": "<a&&/a>",
+        "分类url": "http://www.yilonghd.com/show/id-{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html;;a",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#纪录片$5"
+      }
+    },
+    {
+      "key": "快看资源",
+      "name": "快看切片",
+      "type": 1,
+      "api": "https://kuaikan-api.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "韩国剧",
+        "香港剧",
+        "台湾剧",
+        "欧美剧",
+        "动作片",
+        "科幻片",
+        "战争片",
+        "奇幻片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "犯罪片",
+        "悬疑片",
+        "惊悚片",
+        "剧情片",
+        "冒险片",
+        "记录片",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
+      "key": "csp_77",
+      "name": "酷云七七",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "直播",
+      "name": "电视直播",
+      "type": 3,
+      "api": "https://jihulab.com/owen2000wy/owentv/-/raw/main/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%82%B9%E6%92%AD.js",
+      "ext": "OwenTV$https://jihulab.com/owen2000wy/owentv/-/raw/main/HP20230319.txt#南风$https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt#肥猫$http://我不是.肥猫.love:63/TV/tvzb.txt#饭太硬$https://agit.ai/fantaiying/fty/raw/branch/master/live.txt#影视范$https://agit.ai/fantaiying/fmm/raw/branch/main/tv/m3u/global.m3u#俊于$http://home.jundie.top:81/Cat/tv/live.txt#菜菜$http://ht.grelighting.cn/html/zb.txt#MV$http://xn--ihqu10cn4c.xn--z7x900a.love:63/lives/mv.txt&&&https://api.caonm.net/api/mc/"
+    },
     {
       "key": "肥猫",
       "name": "肥猫┃芸芸",
@@ -1030,6 +1118,35 @@
       "name": "Json并发",
       "type": 2,
       "url": "Parallel"
+    },
+    {
+      "name": "刚佬",
+      "type": 1,
+      "url": "http://json.g9.pub:66/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
     },
     {
       "name": "肥猫线路2",
