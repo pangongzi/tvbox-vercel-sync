@@ -414,33 +414,6 @@
       "ext": "http://dapi.pntao.com/api.php/v1.vod"
     },
     {
-      "key": "csp_Miss",
-      "name": "Miss AV 墙外(SP)",
-      "type": 3,
-      "api": "csp_Miss",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Hanime",
-      "name": "Hanime 墙外(SP)",
-      "type": 3,
-      "api": "csp_Hanime",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "黄瓜TV资源",
-      "name": "黄瓜TV资源",
-      "type": 0,
-      "api": "https://caiji10.com/home/cjapi/cfs6/mc10/vod/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "CK资源",
       "name": "CK资源",
       "type": 1,
@@ -459,118 +432,10 @@
       "filterable": 1
     },
     {
-      "key": "JAV名优",
-      "name": "JAV名优",
-      "type": 0,
-      "api": "http://mygzycj.com/api.php?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "乐播资源",
-      "name": "乐播资源",
-      "type": 0,
-      "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "色南国资源",
       "name": "色南国资源",
       "type": 1,
       "api": "https://api.sexnguon.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "酷豆资源",
-      "name": "酷豆资源",
-      "type": 1,
-      "api": "https://api.kdapi.info/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "奶茶资源",
-      "name": "奶茶资源",
-      "type": 1,
-      "api": "https://caiji.naichaapi.com/inc/apijson_vod.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "美少女资源",
-      "name": "美少女资源",
-      "type": 0,
-      "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "淫水机资源",
-      "name": "淫水机资源",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "香奶儿资源",
-      "name": "香奶儿资源",
-      "type": 0,
-      "api": "https://www.gdlsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "白嫖资源",
-      "name": "白嫖资源",
-      "type": 0,
-      "api": "https://www.kxgav.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "环亚资源",
-      "name": "环亚资源",
-      "type": 0,
-      "api": "http://wmcj8.com/inc/sapi.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "黄AV资源",
-      "name": "黄AV资源",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "色色资源",
-      "name": "色色资源",
-      "type": 0,
-      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "玖玖资源",
-      "name": "玖玖资源",
-      "type": 0,
-      "api": "http://99zywcj.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -600,77 +465,6 @@
       "api": "https://api.yikanapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "影库资源-伦理",
-      "name": "影库资源-伦理",
-      "type": 1,
-      "api": "https://api.ykapi.net/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "酷伦理",
-      "name": "酷伦理-伦理",
-      "type": 1,
-      "api": "https://api.kudian70.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "博天堂",
-      "name": "博天堂-伦理",
-      "type": 0,
-      "api": "http://bttcj.com/inc/sapi.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "PanSou",
-      "name": "盘搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-    },
-    {
-      "key": "YiSo",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-    },
-    {
-      "key": "UpYun",
-      "name": "Up云搜",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-    },
-    {
-      "key": "Zhaozy",
-      "name": "找资源",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
     },
     {
       "key": "push_agent",
@@ -706,26 +500,26 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/webdav.json"
-    },
-    {
-      "key": "格式-key", // 点播源
-      "name": "格式-name", // 点播源
-      "type": 0, // Type 0-xml 1-json 2-爬虫源 3-自定义爬虫 4-服务器爬虫
-      "api": "http://www.kkkkkbbbbb.com/api.php/provide/vod/at/xml/", // Api
-      "playUrl": "站点播放地址", // 站点播放地址
-      "searchable": 1, // 可搜索? 0-不可以 1-可以
-      "quickSearch": 1, // 可快速搜索? 0-不可以 1-可以
-      "filterable": 0, // 可筛选? 0-不可以 1-可以
-      "ext": "站点扩展信息", // 站点扩展信息
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "泰剧",
-        "综艺"
-      ] // Categories 按顺序展示所配置的分类 不配置则默认展示所有分类 
     }
+    // {
+    //   "key": "格式-key", // 点播源
+    //   "name": "格式-name", // 点播源
+    //   "type": 0, // Type 0-xml 1-json 2-爬虫源 3-自定义爬虫 4-服务器爬虫
+    //   "api": "http://www.kkkkkbbbbb.com/api.php/provide/vod/at/xml/", // Api
+    //   "playUrl": "站点播放地址", // 站点播放地址
+    //   "searchable": 1, // 可搜索? 0-不可以 1-可以
+    //   "quickSearch": 1, // 可快速搜索? 0-不可以 1-可以
+    //   "filterable": 0, // 可筛选? 0-不可以 1-可以
+    //   "ext": "站点扩展信息", // 站点扩展信息
+    //   "categories": [
+    //     "国产剧",
+    //     "港台剧",
+    //     "日韩剧",
+    //     "欧美剧",
+    //     "泰剧",
+    //     "综艺"
+    //   ] // Categories 按顺序展示所配置的分类 不配置则默认展示所有分类 
+    // }
   ],
   //解析 Type 0-普通 1-Json 2-多Json 3-聚合
   //type0 手动解析
