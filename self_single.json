@@ -418,6 +418,33 @@
       "ext": "token;desc"
     },
     {
+      "key": "t4_合集",
+      "name": "合集(T4)",
+      "type": 4,
+      "api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=10",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "t4_聚合",
+      "name": "聚合(T4)",
+      "type": 4,
+      "api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_xml_天堂资源",
+      "name": "天堂资源",
+      "type": 1,
+      "api": "http://vipmv.cc/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "CK资源",
       "name": "CK资源",
       "type": 1,
@@ -470,50 +497,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "PanSou",
-      "name": "盘搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-    },
-    {
-      "key": "YiSo",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-    },
-    {
-      "key": "UpYun",
-      "name": "Up云搜",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
-    },
-    {
-      "key": "Zhaozy",
-      "name": "找资源",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/Pandora2277/box/main/token.txt"
     },
     {
       "key": "push_agent",
