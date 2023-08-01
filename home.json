@@ -463,42 +463,6 @@
       "filterable": 1
     },
     {
-      "key": "色南国资源",
-      "name": "色南国资源",
-      "type": 1,
-      "api": "https://api.sexnguon.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "番号资源",
-      "name": "番号资源",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "KK写真资源",
-      "name": "KK写真资源",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "易看资源-伦理",
-      "name": "易看资源-伦理",
-      "type": 1,
-      "api": "https://api.yikanapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "push_agent",
       "name": "推送",
       "type": 3,
