@@ -1,6 +1,6 @@
 {
   // 爬虫、蜘蛛
-  "spider": "https://tvbox-vercel-sync.iwzsj.com/spider/826.jar",
+  "spider": "http://bbscdn.iwzsj.com/spider/826.jar",
   // 直播
   "lives": [
     {
